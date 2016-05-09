@@ -25,12 +25,6 @@ npm run build
 live-server
 ```
 
-If you went with `live-server`, you can substitute the last two commands with:
-
-```sh
-npm start
-```
-
 Build results will be located in the `/build` directory.
 
 ## Results
@@ -49,6 +43,5 @@ ECMAScript 5 (i.e. `const` has been converted into `var`).
 ### `03-bundle-with-css`
 
 Verify that a bundle has been created and that CSS is included in that bundle.
-
-Note how this quite dramatically increased the bundle size with various
+Note how this quite dramatically increases the bundle size with various
 boilerplate code.
