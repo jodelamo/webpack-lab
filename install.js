@@ -20,8 +20,8 @@ readdir('.', (err, files) => {
   files
     // Only include directories
     .filter(file => statSync(file).isDirectory())
-    // Exclude hidden directories
-    .filter(file => !(/(^|\/)\.[^\/\.]/g).test(file))
+    // Directory starts with two digits
+    .filter(file => (/^\d{2}/).test(file))
     // Install all the things
     .forEach(dir => exec(`cd ${dir} && npm install`));
 });
