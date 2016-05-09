@@ -9,7 +9,7 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.css/, loader: ExtractTextPlugin.extract('style', 'css') }
+      { test: /\.css$/, loader: ExtractTextPlugin.extract('style', 'css') }
     ]
   },
   plugins: [
