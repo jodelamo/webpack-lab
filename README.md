@@ -23,7 +23,6 @@ For every lab directory you want to test:
 
 ```sh
 cd <directory>
-npm install
 npm run build
 live-server
 ```
