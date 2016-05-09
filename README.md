@@ -1,6 +1,7 @@
 # webpack-lab
 
-Lab on the basic capabilities of Webpack.
+Lab on the basic capabilities of Webpack. Requires a
+[node.js](https://nodejs.org/en/) version of `>= 4.0.0`.
 
 ## Install
 

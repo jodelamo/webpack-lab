@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Bundle with ECMAScript 2015",
   "main": "build/bundle.js",
+  "engine": {
+    "node": ">=4.0.0"
+  },
   "scripts": {
     "build": "webpack",
     "start": "npm run build && live-server"
