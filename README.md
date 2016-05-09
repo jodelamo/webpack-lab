@@ -43,13 +43,14 @@ ECMAScript 5 (i.e. `const` has been converted into `var`).
 ### `03-bundle-with-css`
 
 Verify that a bundle has been created and that CSS is included in that bundle.
-Note how this quite dramatically increases the bundle size with various
-boilerplate code.
+Note how `style-loader` and `css-loader` dramatically increase the bundle size
+with various boilerplate code.
 
 ### `04-bundle-with-external-css`
 
 Verify that a bundle has been created and that a seperate CSS file has been
-created alongside with it.
+created alongside with it. Note how `ExtractTextPlugin` removes the boilerplate
+code previously introduced.
 
 ### `05-bundle-with-html`
 
