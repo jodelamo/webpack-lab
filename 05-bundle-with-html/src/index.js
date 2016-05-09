@@ -1,3 +1,3 @@
-var body = require('./body.html');
+var heading = require('./heading.html');
 
-document.body.innerHTML = body;
+document.body.innerHTML = heading;
