@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 
+/**
+ * Install dependencies in each subdirectory
+ */
+
 const readdir = require('fs').readdir;
 const statSync = require('fs').statSync;
 const execSync = require('child_process').execSync;
