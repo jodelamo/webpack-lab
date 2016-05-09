@@ -45,3 +45,7 @@ ECMAScript 5 (i.e. `const` has been converted into `var`).
 Verify that a bundle has been created and that CSS is included in that bundle.
 Note how this quite dramatically increases the bundle size with various
 boilerplate code.
+
+### `05-bundle-with-html`
+
+Verify that a bundle has been created and that HTML is included in that bundle.

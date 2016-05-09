@@ -1,0 +1,16 @@
+{
+  "name": "@jlowgren/05-bundle-with-html",
+  "version": "0.1.0",
+  "description": "Bundle with HTML",
+  "main": "build/bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && live-server"
+  },
+  "author": "Joacim Löwgren",
+  "license": "ISC",
+  "devDependencies": {
+    "html-loader": "^0.4.3",
+    "webpack": "^1.13.0"
+  }
+}
