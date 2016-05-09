@@ -2,7 +2,7 @@
 
 Lab on the basic capabilities of Webpack.
 
-## Usage
+## Install
 
 Install a local web server, such as `live-server`:
 
@@ -10,11 +10,13 @@ Install a local web server, such as `live-server`:
 npm install -g live-server
 ```
 
-Or use one that's shipped with most UNIX-like systems:
+Install all dependencies in one fell swoop:
 
 ```sh
-python -m SimpleHTTPServer 8080
+./install.js
 ```
+
+## Build
 
 For every lab directory you want to test:
 
@@ -27,7 +29,7 @@ live-server
 
 Build results will be located in the `/build` directory.
 
-## Results
+## Verify results
 
 Verify the following in each lab build directory:
 
