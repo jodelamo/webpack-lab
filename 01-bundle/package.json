@@ -1,0 +1,15 @@
+{
+  "name": "@jlowgren/01-bundle",
+  "version": "0.1.0",
+  "description": "Bundle",
+  "main": "build/bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && live-server"
+  },
+  "author": "Joacim Löwgren",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.13.0"
+  }
+}

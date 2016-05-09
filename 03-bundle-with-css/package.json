@@ -1,0 +1,17 @@
+{
+  "name": "@jlowgren/03-bundle-with-css",
+  "version": "0.1.0",
+  "description": "Bundle with CSS",
+  "main": "build/bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && live-server"
+  },
+  "author": "Joacim Löwgren",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0"
+  }
+}
