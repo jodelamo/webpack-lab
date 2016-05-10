@@ -7,12 +7,15 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "build": "webpack",
-    "start": "npm run build && live-server"
+    "prestart": "webpack",
+    "start": "live-server"
   },
   "author": "Joacim Löwgren",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "live-server": "^1.0.0"
   }
 }

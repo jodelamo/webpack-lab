@@ -5,12 +5,6 @@ Lab on the basic capabilities of Webpack. Requires a
 
 ## Install
 
-Install a local web server, such as `live-server`:
-
-```sh
-npm install -g live-server
-```
-
 Install all dependencies in one fell swoop:
 
 ```sh
@@ -23,16 +17,15 @@ For every lab directory you want to test:
 
 ```sh
 cd <directory>
-npm run build
-live-server
+npm start
 ```
 
 Build results will be located in the `/build` directory.
 
 ## Results
 
-Verify the following expected results by running `live-server` from each
-directory.
+Verify the expected results by examining the generated content in the
+respective `/build` directories.
 
 ### `01-bundle`
 

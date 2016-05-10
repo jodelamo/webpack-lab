@@ -7,8 +7,8 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "build": "webpack",
-    "start": "npm run build && live-server"
+    "prestart": "webpack",
+    "start": "live-server"
   },
   "author": "Joacim Löwgren",
   "license": "ISC",

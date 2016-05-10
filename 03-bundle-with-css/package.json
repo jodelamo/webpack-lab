@@ -7,8 +7,8 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "build": "webpack",
-    "start": "npm run build && live-server"
+    "prestart": "webpack",
+    "start": "live-server"
   },
   "author": "Joacim Löwgren",
   "license": "ISC",
@@ -16,5 +16,8 @@
     "css-loader": "^0.23.1",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "live-server": "^1.0.0"
   }
 }
