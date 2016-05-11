@@ -59,3 +59,10 @@ introduced.
 
 Verify that a bundle has been created, that HTML is included in that bundle and
 that there is a `<h1>` element present.
+
+### `06-bundle-with-css-and-hmr`
+
+Verify that by changing CSS or JavaScript, it will be immediately reflected
+in the browser window through hot module replacement (HMR).
+
+Note that this requires a different setup than previous examples.

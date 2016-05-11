@@ -1,0 +1,23 @@
+{
+  "name": "@jlowgren/06-bundle-with-css-and-hmr",
+  "version": "0.1.0",
+  "description": "Bundle with CSS and hot module replacement (HMR)",
+  "main": "build/bundle.js",
+  "engine": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "prestart": "mkdir -p build && cp index.html build",
+    "start": "webpack-dev-server --inline --hot --content-base build"
+  },
+  "author": "Joacim Löwgren",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^1.14.1"
+  }
+}

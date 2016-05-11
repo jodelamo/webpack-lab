@@ -18,13 +18,13 @@
     "babel-preset-stage-3": "^6.5.0",
     "webpack": "^1.13.0"
   },
+  "dependencies": {
+    "live-server": "^1.0.0"
+  },
   "babel": {
     "presets": [
       "es2015",
       "stage-3"
     ]
-  },
-  "dependencies": {
-    "live-server": "^1.0.0"
   }
 }
