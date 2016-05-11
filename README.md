@@ -11,7 +11,7 @@ Install all dependencies in one fell swoop:
 ./install.js
 ```
 
-## Build
+## Usage
 
 For every lab directory you want to test:
 
@@ -20,7 +20,8 @@ cd <directory>
 npm start
 ```
 
-Build results will be located in the `/build` directory.
+This will launch a browser window. Build results will be located in the
+`/build` directory.
 
 ## Results
 
