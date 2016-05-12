@@ -5,7 +5,8 @@ Lab on the basic capabilities of Webpack. Requires a
 
 ## Install
 
-Install all dependencies in one fell swoop:
+Each directory is its own example project. You can install dependencies for all
+of them in one fell swoop:
 
 ```sh
 ./install.js
@@ -20,8 +21,8 @@ cd <directory>
 npm start
 ```
 
-This will launch a browser window. Build results will be located in the
-`/build` directory.
+This will build the project and launch a browser window. Build results will be
+located in the `/build` directory.
 
 ## Results
 
