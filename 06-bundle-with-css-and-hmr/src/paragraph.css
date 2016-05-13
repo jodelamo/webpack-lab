@@ -1,5 +1,5 @@
 p {
-  color: orange;
+  color: blue;
   transform-origin: center right;
   animation: wow 500ms infinite alternate;
 }
