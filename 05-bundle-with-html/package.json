@@ -15,5 +15,8 @@
   "devDependencies": {
     "html-loader": "^0.4.3",
     "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "live-server": "^1.0.0"
   }
 }
