@@ -55,7 +55,7 @@ created alongside with it and that there is a **chocolate** colored `<h1>`
 element present.
 
 Note how `ExtractTextPlugin` removes the boilerplate code previously
-introduced.
+introduced, as it is no longer necessary.
 
 ### `05-bundle-with-html`
 
@@ -67,4 +67,6 @@ that there is a `<h1>` element present.
 Verify that by changing CSS or JavaScript, it will be immediately reflected
 in the browser window through hot module replacement (HMR).
 
-Note that this requires a different setup than previous examples.
+Note that this requires a different setup than previous examples, such as
+`index.html` needing to be present in the directory pointed out by
+`--content-base`.
