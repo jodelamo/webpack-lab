@@ -70,3 +70,12 @@ in the browser window through hot module replacement (HMR).
 Note that this requires a different setup than previous examples, such as
 `index.html` needing to be present in the directory pointed out by
 `--content-base`.
+
+### `07-bundle-with-code-splitting`
+
+Verify that when clicking the "Add paragraph" button, the generated file
+`2.2.js` (created from `paragraph.js`) is lazy loaded and a paragraph is
+appended to the DOM.
+
+Note that this requires setting the `output.publicPath` configuration setting
+in order for split chunks to know which directory to load relative from.
