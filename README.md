@@ -27,7 +27,8 @@ located in the `/build` directory.
 ## Results
 
 Verify the expected results by examining the generated content in the
-respective `/build` directories.
+respective `/build` directories. Take note of the loaders and plugins involved
+in each example.
 
 ### `01-bundle`
 
