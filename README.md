@@ -80,3 +80,14 @@ appended to the DOM.
 
 Note that this requires setting the `output.publicPath` configuration setting
 in order for split chunks to know which directory to load relative from.
+
+## Exercise
+
+Create a project of your own (e.g. by copying `/01-bundle` as a starting point)
+and create a simple layout with a header, body and footer area. Each area
+should be contained in separate templates and stylesheets.
+
+Somewhere in there you should also add an image.
+
+Remember that your project needs a single point of entry, such as
+`src/index.js`.
