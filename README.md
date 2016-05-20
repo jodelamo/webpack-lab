@@ -87,7 +87,31 @@ Create a project of your own (e.g. by copying `/01-bundle` as a starting point)
 and create a simple layout with a header, body and footer area. Each area
 should be contained in separate templates and stylesheets.
 
-Somewhere in there you should also add an image.
-
 Remember that your project needs a single point of entry, such as
 `src/index.js`.
+
+### Example templates
+
+Header:
+
+```html
+<div role="header">
+  <h1>Webpack</h1>
+</div>
+```
+
+Body:
+
+```html
+<div role="main">
+  <p>Possibly the greatest bundler in the world.</p>
+</div>
+```
+
+Footer:
+
+```html
+<div role="contentinfo">
+  <p>© Jayway</p>
+</div>
+```
