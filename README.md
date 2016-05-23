@@ -95,7 +95,7 @@ Remember that your project needs a single point of entry, such as
 Header:
 
 ```html
-<div role="header">
+<div role="banner">
   <h1>Webpack</h1>
 </div>
 ```
